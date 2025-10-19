@@ -1,0 +1,11 @@
+.hero-section {
+    background: url("/images/hero/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@media  (min-width: 1200px) and (max-width: 1536px)  {
+  .hero-headline {
+    font-size: 64px;
+  }
+}
