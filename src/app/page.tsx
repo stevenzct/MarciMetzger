@@ -4,6 +4,7 @@ import Expertise from "../../components/homepage/Expertise";
 import Hero from "../../components/homepage/Hero";
 import PropertyShowcase from "../../components/homepage/PropertyShowcase";
 import SearchListings from "../../components/homepage/SearchListings";
+import Services from "../../components/homepage/Services";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <SearchListings/>
       <BrandShowcase/>
       <PropertyShowcase/>
+      <Services/>
     </div>
   );
 }
