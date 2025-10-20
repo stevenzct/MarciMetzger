@@ -12,7 +12,7 @@ const PropertyShowcase = () => {
             Explore some of Southern Nevada’s most desirable residences
           </p>
 
-          <div className="flex justify-between">
+          <div className="flex justify-between gap-x-[20px] gap[20px]">
             <div className="">
               <figure className="relative flex flex-col items-start ">
                 <Image
