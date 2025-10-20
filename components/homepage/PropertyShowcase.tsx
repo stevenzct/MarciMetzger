@@ -1,14 +1,14 @@
 import Image from "next/image";
 const PropertyShowcase = () => {
   return (
-    <div className="pt-[120px] pb-[120px] md:pb-auto md:pt-auto bg-[#F7F4F4]">
+    <div className="pt-[80px] pb-[80px] md:pt-[120px] md:pb-[120px] md:pb-auto md:pt-auto bg-[#F7F4F4]">
       <div className="container-wrapper w-full h-auto">
         <div className="app-container lg:w-[75%] max-w-[1200px] w-auto mx-6 md:mx-12 lg:mx-auto">
           <h1 className=" text-[38px] md:text-[60px] mb-[16px] lg:text-[73px] text-center font-nm-medium font-medium leading-[41px] lg:leading-[65px] text-black w-auto tracking-normal">
             Property Showcase
           </h1>
 
-          <p className="text-[18px] md:text-[24px] text-center font-nm-book text-[#383838] tracking-normal w-auto mt-2 lg:mt-4 lg:leading-[35px] mb-3  lg:mb-[64px]">
+          <p className="text-[18px] md:text-[24px] text-center font-nm-book text-[#383838] tracking-normal w-auto mt-2 lg:mt-4 lg:leading-[35px] mb-[32px]  lg:mb-[64px]">
             Explore some of Southern Nevada’s most desirable residences
           </p>
 
@@ -30,7 +30,7 @@ const PropertyShowcase = () => {
               </figure>
             </div>
 
-            <div className="">
+            <div className="hidden md:block">
               <figure className="relative flex flex-col items-start ">
                 <Image
                   src="/images/propertyShowcase/2.jpg"
@@ -47,7 +47,7 @@ const PropertyShowcase = () => {
               </figure>
             </div>
 
-            <div className="">
+            <div className="hidden md:block">
               <figure className="relative flex flex-col items-start ">
                 <Image
                   src="/images/propertyShowcase/3.jpg"

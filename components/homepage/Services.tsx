@@ -4,15 +4,15 @@ import styles from "./Hero.module.css";
 const Services = () => {
   return (
     <div
-      className={`${styles["hero-section"]} pt-[120px] pb-[120px] md:pb-auto md:pt-auto`}
+      className={`${styles["hero-section"]} pt-[80px] pb-[80px] md:pt-[120px] md:pb-[120px] md:pb-auto md:pt-auto`}
     >
       <div className="container-wrapper w-full h-auto">
         <div className="app-container lg:w-[75%] max-w-[1200px] w-auto mx-6 md:mx-12 lg:mx-auto">
-          <h1 className=" text-[38px] md:text-[60px] mb-[64px] lg:text-[73px] text-center font-nm-medium font-medium leading-[41px] lg:leading-[65px] text-black w-auto tracking-normal">
+          <h1 className=" text-[38px] md:text-[60px] mb-[32px] md:mb-[64px] lg:text-[73px] text-center font-nm-medium font-medium leading-[41px] lg:leading-[65px] text-black w-auto tracking-normal">
             Our Services
           </h1>
 
-          <div className="flex justify-between gap-x-[20px] gap[20px]">
+          <div className="flex flex-col md:flex-row justify-between gap-y-[32px] md:gap-y-[0] gap-x-[20px] gap[20px]">
             <div className="">
               <div className="max-w-sm bg-white rounded-[5px]">
                 <a href="#">
