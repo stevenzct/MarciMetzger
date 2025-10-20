@@ -1,5 +1,6 @@
 import About from "../../components/homepage/About";
 import BrandShowcase from "../../components/homepage/BrandShowcase";
+import Contact from "../../components/homepage/Contact";
 import Expertise from "../../components/homepage/Expertise";
 import Hero from "../../components/homepage/Hero";
 import PropertyShowcase from "../../components/homepage/PropertyShowcase";
@@ -16,6 +17,7 @@ export default function Home() {
       <BrandShowcase/>
       <PropertyShowcase/>
       <Services/>
+      <Contact/>
     </div>
   );
 }
