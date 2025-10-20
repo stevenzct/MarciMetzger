@@ -19,7 +19,7 @@ const Services = () => {
                   <img
                     className="rounded-t-lg"
                     src="/images/services/1.png"
-                    alt=""
+                    alt="image1"
                   />
                 </a>
                 <div className="p-5 pb-8">
@@ -44,7 +44,7 @@ const Services = () => {
                   <img
                     className="rounded-t-lg"
                     src="/images/services/2.png"
-                    alt=""
+                    alt="image2"
                   />
                 </a>
                 <div className="p-5 pb-8">
@@ -69,7 +69,7 @@ const Services = () => {
                   <img
                     className="rounded-t-lg"
                     src="/images/services/3.png"
-                    alt=""
+                    alt="image3"
                   />
                 </a>
                 <div className="p-5 pb-8">
