@@ -12,7 +12,7 @@ const Contact = () => {
             professional in Southern Nevada.
           </p>
 
-          <div className="flex justify-between gap-x-[20px] gap[20px]">
+          <div className="flex justify-between gap-x-[20px] gap[60px]">
             <div className="">
               <div className="bg-[#F2EEED] rounded-[5px]">
                 <form className="px-8 py-12 w-[535px]">
@@ -65,7 +65,36 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className=""></div>
+            <div className="">
+              <h5 className="text-[24px] text-start font-nm-medium font-medium  text-[#3383838] mb-[8px] tracking-normal">
+                Marci Metzger - THE RIDGE REALTY GROUP
+              </h5>
+
+              <p className="text-[18px]  lg:text-[24px] text-start font-nm-book mb-[24px] text-[#383838] tracking-normal w-auto ">
+                (206) 919-6886
+              </p>
+
+              <h5 className="text-[24px] text-start font-nm-medium font-medium  text-[#3383838] mb-[8px] tracking-normal">
+                Office Hours
+              </h5>
+
+              <p className="text-[18px]  lg:text-[24px] mb-[16px] text-start font-nm-book text-[#383838] tracking-normal w-auto ">
+                Mon - Sun &nbsp; 08:00 am – 07:00 pm
+              </p>
+
+              <div className="relative text-right w-[565] h-[360px] rounded-5 ">
+                <iframe
+                  className="w-full h-full rounded-5"
+                  frameBorder="0"
+                  scrolling="no"
+                  src="https://maps.google.com/maps?width=600&height=400&hl=en&q=3190 HW-160, Suite F, Pahrump, Nevada 89048, United States&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+                  title="Google Map"
+                ></iframe>
+                <a href="https://wheremylocation.com/" className="hidden">
+                  my location
+                </a>
+              </div>
+            </div>
           </div>
         </div>
         <div></div>
