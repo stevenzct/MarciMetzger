@@ -13,6 +13,7 @@ const About = () => {
               src="/images/about/profile.jpg"
               alt="About Image"
               width={500}
+              className="rounded-[5px]"
               height={500}
             />
             <div>
