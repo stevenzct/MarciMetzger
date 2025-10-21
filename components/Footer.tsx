@@ -18,8 +18,8 @@ const Footer = () => {
                 3190 HW-160, Suite F, Pahrump, Nevada 89048, United States
               </p>
               <p className="text-[14px] hidden lg:block text-center font-nm-book text-[#B4B4B482] tracking-normal w-auto  lg:leading-[35px]">
-                  Copyright © 2023 Marci METZGER Homes - All Rights Reserved
-                </p>
+                Copyright © 2023 Marci METZGER Homes - All Rights Reserved
+              </p>
             </div>
 
             <div className="mt-[32px] mb-[32px] md:mb-0 md:mt-0 gap-[18px] flex flex-col">
@@ -107,13 +107,10 @@ const Footer = () => {
               </div>
             </div>
 
-            <div>
-                 <p className="text-[14px] mt-[32px] w-[260px] text-start lg:hidden block font-nm-book text-[#B4B4B482] tracking-normal   lg:leading-[35px]">
-                  Copyright © 2023 Marci METZGER Homes - All Rights Reserved
-                </p>
-            </div>
+            <p className="text-[14px] mt-[32px] w-[260px] text-start lg:hidden block font-nm-book text-[#B4B4B482] tracking-normal   lg:leading-[35px]">
+              Copyright © 2023 Marci METZGER Homes - All Rights Reserved
+            </p>
           </div>
-          
         </div>
       </div>
     </footer>
