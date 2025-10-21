@@ -13,7 +13,7 @@ const Expertise = () => {
             Get it Sold!
           </h1>
           <div className="flex justify-center">
-            <p className="text-lead w-[699px] mb-[64px] md:text-[24px] text-center font-nm-book text-[#222222] leading-normal md:leading-[29px]">
+            <p className="text-lead w-[699px] mb-[32px] md:mb-[64px] md:text-[24px] text-center font-nm-book text-[#222222] leading-normal md:leading-[29px]">
             From pricing precision to closing expertise, your property is
             represented with integrity, strategy, and confidence.
           </p>
