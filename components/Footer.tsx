@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className=" pt-[64px] pb-[64px] md:pb-auto md:pt-auto bg-[#191919]">
       <div className="container-wrapper w-full h-auto">
         <div className="app-container lg:w-[75%] max-w-[1200px] w-auto mx-6 md:mx-12 lg:mx-auto">
-          <div className="flex justify-between">
+          <div className="flex flex-col md:flex-row justify-between">
             <div className="">
               <Image
                 src="/images/logo/secondary-logo.svg"
@@ -17,12 +17,12 @@ const Footer = () => {
               <p className="text-[18px]  lg:w-[327px] text-start mt-[8px] font-nm-book text-[#B4B4B4] tracking-normal w-auto ">
                 3190 HW-160, Suite F, Pahrump, Nevada 89048, United States
               </p>
-              <p className="text-[14px]  text-center font-nm-book text-[#B4B4B482] tracking-normal w-auto  lg:leading-[35px]">
+              <p className="text-[14px] hidden lg:block text-center font-nm-book text-[#B4B4B482] tracking-normal w-auto  lg:leading-[35px]">
                   Copyright © 2023 Marci METZGER Homes - All Rights Reserved
                 </p>
             </div>
 
-            <div className="gap-[18px] flex flex-col">
+            <div className="mt-[32px] mb-[32px] md:mb-0 md:mt-0 gap-[18px] flex flex-col">
               <h5 className="text-[24px] text-start font-nm-medium font-medium  text-white  tracking-normal">
                 Home
               </h5>
@@ -105,6 +105,12 @@ const Footer = () => {
                   />
                 </svg>
               </div>
+            </div>
+
+            <div>
+                 <p className="text-[14px] mt-[32px] w-[260px] text-start lg:hidden block font-nm-book text-[#B4B4B482] tracking-normal   lg:leading-[35px]">
+                  Copyright © 2023 Marci METZGER Homes - All Rights Reserved
+                </p>
             </div>
           </div>
           

@@ -1,21 +1,21 @@
 const Contact = () => {
   return (
-    <div className="pt-[120px] pb-[120px] md:pb-auto md:pt-auto bg-white">
+    <div className="pt-[80px] pb-[80px] md:pt-[120px] md:pb-[120px] md:pb-auto md:pt-auto bg-white">
       <div className="container-wrapper w-full h-auto">
         <div className="app-container lg:w-[75%] max-w-[1200px] w-auto mx-6 md:mx-12 lg:mx-auto">
           <h1 className=" text-[38px] md:text-[60px] mb-[16px] lg:text-[73px] text-start font-nm-medium font-medium leading-[41px] lg:leading-[65px] text-black w-auto tracking-normal">
             Let’s Talk Real Estate
           </h1>
 
-          <p className="text-[18px] md:text-[24px] text-start font-nm-book text-[#383838] tracking-normal w-auto lg:w-[692px] mt-2 lg:mt-4 lg:leading-[30px] mb-3  lg:mb-[64px]">
+          <p className="text-[18px] md:text-[24px] text-start font-nm-book text-[#383838] tracking-normal w-auto lg:w-[692px] mt-2 lg:mt-4 lg:leading-[30px] mb-[32px] md:mb-3   lg:mb-[64px]">
             Reach out today to discuss your real estate goals with a trusted
             professional in Southern Nevada.
           </p>
 
-          <div className="flex justify-between gap-x-[20px] gap[60px]">
+          <div className="flex flex-col md:flex-row justify-between gap-x-[20px] gap[60px]">
             <div className="">
               <div className="bg-[#F2EEED] rounded-[5px]">
-                <form className="px-8 py-12 w-[535px]">
+                <form className="px-8 py-12 w-auto lg:w-[535px] mb-[32px] md:mb-0">
                   <p className="text-[18px] md:text-[24px] text-start font-nm-book text-[#383838] tracking-normal w-auto  lg:leading-[35px] mb-[24px]   ">
                     Send a message
                   </p>
@@ -82,7 +82,7 @@ const Contact = () => {
                 Mon - Sun &nbsp; 08:00 am – 07:00 pm
               </p>
 
-              <div className="relative text-right w-[565] h-[360px] rounded-5 ">
+              <div className="relative text-right w-auto h-auto lg:Lw-[565] lg:h-[360px] rounded-5 ">
                 <iframe
                   className="w-full h-full rounded-5"
                   frameBorder="0"
