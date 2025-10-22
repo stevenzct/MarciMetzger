@@ -12,7 +12,7 @@ const Contact = () => {
             professional in Southern Nevada.
           </p>
 
-          <div className="flex flex-col md:flex-row justify-between gap-x-[20px] gap-[60px]">
+          <div className="flex flex-col lg:flex-row justify-between gap-x-[20px]">
             <div className="">
               <div className="bg-[#F2EEED] rounded-[5px]">
                 <form className="px-8 py-12 w-auto lg:w-[535px] mb-[32px] md:mb-0">
@@ -127,7 +127,7 @@ const Contact = () => {
                 </p>
               </div>
 
-              <div className="relative text-right w-auto h-auto lg:Lw-[565] lg:h-[360px] rounded-5 ">
+              <div className="relative text-right w-auto h-auto lg:w-[565] lg:h-[360px] rounded-5 ">
                 <iframe
                   className="w-full h-full rounded-5"
                   frameBorder="0"
