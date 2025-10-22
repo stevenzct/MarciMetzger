@@ -53,7 +53,7 @@ const Services = () => {
                       Commercial & Residential
                     </h5>
                   </a>
-                  <p className="text-[18px]  text-start font-nm-book text-[#383838] tracking-normal w-auto ">
+                  <p className="text-[16px] md:text-[18px] text-start font-nm-book text-[#383838] tracking-normal w-auto ">
                     Nervous about your property adventure? Don’t be. Whether
                     you're getting ready to buy or sell your residence, looking
                     at investment properties, or just curious about the markets,
@@ -78,7 +78,7 @@ const Services = () => {
                       Rely on Expertise
                     </h5>
                   </a>
-                  <p className="text-[18px]  text-start font-nm-book text-[#383838] tracking-normal w-auto ">
+                  <p className="text-[16px] md:text-[18px]  text-start font-nm-book text-[#383838] tracking-normal w-auto ">
                     If you have questions about affordability, credit, and loan
                     options, trust us to connect you with the right people to
                     get the answers you need in a timely fashion. We make sure
