@@ -28,7 +28,7 @@ const Services = () => {
                       Real Estate Done Right
                     </h5>
                   </a>
-                  <p className="text-[18px]  text-start font-nm-book text-[#383838] tracking-normal w-auto ">
+                  <p className="text-[16px] md:text-[18px]  text-start font-nm-book text-[#383838] tracking-normal w-auto ">
                     Nervous about your property adventure? Don’t be. Whether
                     you're getting ready to buy or sell your residence, looking
                     at investment properties, or just curious about the markets,

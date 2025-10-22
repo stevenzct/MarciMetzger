@@ -14,9 +14,9 @@ const Expertise = () => {
           </h1>
           <div className="flex justify-center">
             <p className="text-lead w-[699px] mb-[32px] md:mb-[64px] md:text-[24px] text-center font-nm-book text-[#222222] leading-normal md:leading-[29px]">
-            From pricing precision to closing expertise, your property is
-            represented with integrity, strategy, and confidence.
-          </p>
+              From pricing precision to closing expertise, your property is
+              represented with integrity, strategy, and confidence.
+            </p>
           </div>
 
           <div className="expertise-content">
@@ -34,8 +34,12 @@ const Expertise = () => {
                       width={90}
                       height={90}
                     />
-                    <h2 className="text-[24px] font-nm-medium font-medium">{title}</h2>
-                    <p className="text-[20px] font-nm-book text-[#383838] leading-snug">{description}</p>
+                    <h2 className="text-[24px] font-nm-medium font-medium">
+                      {title}
+                    </h2>
+                    <p className="text-[16px] md:text-[20px] font-nm-book text-[#383838] leading-snug">
+                      {description}
+                    </p>
                   </div>
                 ))}
               </div>
