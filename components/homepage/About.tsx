@@ -8,7 +8,7 @@ const About = () => {
     >
       <div className="container-wrapper w-full h-auto">
         <div className="app-container lg:w-[75%] max-w-[1200px] w-auto mx-6 md:mx-12 lg:mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[64px]">
             <div className="w-full">
               <Image
                 src="/images/about/profile.jpg"
