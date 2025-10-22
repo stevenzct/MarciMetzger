@@ -13,51 +13,51 @@ const PropertyShowcase = () => {
           </p>
 
           <div className="flex justify-between gap-x-[20px] gap[20px]">
-            <div className="">
+            <div className="w-full">
               <figure className="relative flex flex-col items-start ">
                 <Image
                   src="/images/propertyShowcase/1.jpg"
                   alt="propertyShowcase1"
-                  className="rounded-[5px]"
+                  className="rounded-[5px] w-full h-auto"
                   width={387}
                   height={476}
                 />
                 <figcaption className=" absolute bottom-8  w-auto ">
-                  <h1 className="  text-[32px] text-start font-nm-medium font-medium ms-[32px] leading-[41px] lg:leading-[65px] text-white  tracking-normal">
+                  <h1 className="  text-[32px] text-start font-nm-medium font-medium ms-[32px] text-white  tracking-normal">
                     Sierra Sol Estate
                   </h1>
                 </figcaption>
               </figure>
             </div>
 
-            <div className="hidden md:block">
+            <div className="hidden md:block w-full">
               <figure className="relative flex flex-col items-start ">
                 <Image
                   src="/images/propertyShowcase/2.jpg"
                   alt="propertyShowcase2"
-                  className="rounded-[5px]"
+                  className="rounded-[5px] w-full h-auto"
                   width={387}
                   height={476}
                 />
                 <figcaption className=" absolute bottom-8  w-auto ">
-                  <h1 className="  text-[32px] text-start font-nm-medium font-medium ms-[32px] leading-[41px] lg:leading-[65px] text-white  tracking-normal">
+                  <h1 className="  text-[32px] text-start font-nm-medium font-medium ms-[32px]  text-white  tracking-normal">
                     Canyonview Retreat
                   </h1>
                 </figcaption>
               </figure>
             </div>
 
-            <div className="hidden md:block">
+            <div className="hidden md:block w-full">
               <figure className="relative flex flex-col items-start ">
                 <Image
                   src="/images/propertyShowcase/3.jpg"
                   alt="propertyShowcase3"
-                  className="rounded-[5px]"
+                  className="rounded-[5px] w-full h-auto"
                   width={387}
                   height={476}
                 />
                 <figcaption className=" absolute bottom-8  w-auto ">
-                  <h1 className="  text-[32px] text-start font-nm-medium font-medium ms-[32px] leading-[41px] lg:leading-[65px] text-white  tracking-normal">
+                  <h1 className="  text-[32px] text-start font-nm-medium font-medium ms-[32px] text-white  tracking-normal">
                     Sandridge Manor
                   </h1>
                 </figcaption>

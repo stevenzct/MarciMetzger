@@ -9,41 +9,41 @@ const BrandShowcase = () => {
       <div className="container-wrapper w-full h-auto">
         <div className="app-container lg:w-[75%] max-w-[1200px] w-auto mx-6 md:mx-12 lg:mx-auto">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-            <div className="">
+            <div className="w-full">
               <Image
                 src="/images/brandShowcase/1.jpg"
                 alt="brandShowcase"
-                className="rounded-[5px]"
+                className="rounded-[5px] w-full h-auto"
                 width={285}
                 height={236}
               />
             </div>
 
-            <div className="">
+            <div className="w-full">
               <Image
                 src="/images/brandShowcase/2.png"
                 alt="brandShowcase"
-                className="rounded-[5px]"
+                className="rounded-[5px] w-full h-auto"
                 width={285}
                 height={236}
               />
             </div>
 
-            <div className="">
+            <div className="w-full">
               <Image
                 src="/images/brandShowcase/3.jpg"
                 alt="brandShowcase"
-                className="rounded-[5px]"
+                className="rounded-[5px] w-full h-auto"
                 width={285}
                 height={236}
               />
             </div>
 
-            <div className="">
+            <div className="w-full">
               <Image
                 src="/images/brandShowcase/4.jpg"
                 alt="brandShowcase"
-                className="rounded-[5px]"
+                className="rounded-[5px] w-full h-auto"
                 width={285}
                 height={236}
               />

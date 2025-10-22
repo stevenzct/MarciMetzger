@@ -12,12 +12,12 @@ const Services = () => {
             Our Services
           </h1>
 
-          <div className="flex flex-col md:flex-row justify-between gap-y-[32px] md:gap-y-[0] gap-x-[20px] gap[20px]">
-            <div className="">
-              <div className="max-w-sm bg-white rounded-[5px]">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-[20px] gap-y-12 md:gap-y-16">
+            <div className="w-full">
+              <div className=" bg-white rounded-[5px] w-full">
                 <a href="#">
                   <img
-                    className="rounded-t-lg"
+                    className="rounded-t-lg w-full"
                     src="/images/services/1.png"
                     alt="image1"
                   />
@@ -38,11 +38,11 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="">
-              <div className="max-w-sm bg-white rounded-[5px]">
+            <div className="w-full">
+              <div className=" bg-white rounded-[5px] w-full ">
                 <a href="#">
                   <img
-                    className="rounded-t-lg"
+                    className="rounded-t-lg w-full "
                     src="/images/services/2.png"
                     alt="image2"
                   />
@@ -63,11 +63,11 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="">
-              <div className="max-w-sm bg-white rounded-[5px]">
+            <div className="w-full h-full">
+              <div className=" bg-white rounded-[5px] w-full">
                 <a href="#">
                   <img
-                    className="rounded-t-lg"
+                    className="rounded-t-lg w-full "
                     src="/images/services/3.png"
                     alt="image3"
                   />

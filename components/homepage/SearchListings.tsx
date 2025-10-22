@@ -17,14 +17,14 @@ const SearchListings = () => {
                   height={693}
                 />
                 <figcaption className="absolute bottom-4 md:bottom-12  w-auto  lg:w-[442px] px-2 py-2 md:px-4 md:py-4">
-                  <h1 className=" text-[38px] md:text-[60px] p-4 md:p-auto text-center md:text-start font-nm-medium font-medium leading-[48px] lg:leading-[65px] text-white  tracking-normal">
+                  <h1 className=" text-[38px] md:text-[48px] lg:text-[60px] p-4 md:p-auto text-center md:text-start font-nm-medium font-medium leading-[48px] lg:leading-[65px] text-white  tracking-normal">
                     Find your Dream Home
                   </h1>
                 </figcaption>
               </figure>
             </div>
             <div className=" w-full h-full">
-              <h1 className="mt-[40px] md:mt-[0] text-[38px] md:text-[60px] lg:text-[52px] text-center font-nm-medium font-medium leading-[41px] lg:leading-[65px] text-black tracking-normal mb-[24px]">
+              <h1 className="mt-[40px] lg:mt-[0] text-[38px] md:text-[48px]  lg:text-[52px] text-center font-nm-medium font-medium leading-[41px] lg:leading-[65px] text-black tracking-normal mb-[24px]">
                 Search Listings
               </h1>
 
