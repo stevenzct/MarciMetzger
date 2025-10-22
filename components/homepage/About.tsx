@@ -8,16 +8,18 @@ const About = () => {
     >
       <div className="container-wrapper w-full h-auto">
         <div className="app-container lg:w-[75%] max-w-[1200px] w-auto mx-6 md:mx-12 lg:mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
-            <Image
-              src="/images/about/profile.jpg"
-              alt="About Image"
-              width={500}
-              className="rounded-[5px]"
-              height={500}
-            />
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8">
+            <div className="w-full">
+              <Image
+                src="/images/about/profile.jpg"
+                alt="About Image"
+                width={500}
+                className="rounded-[5px] w-full h-auto"
+                height={500}
+              />
+            </div>
             <div>
-              <h1 className="text-[32px]  md:text-[52px] text-start  mb-4 mt-[32px] md:mt-[0] md:mb-16 lg:mb-[16px] font-nm-medium font-medium text-black w-auto leading-[30px] md:leading-20 lg:leading-[77px]">
+              <h1 className="text-[32px]  md:text-[52px] text-start  mb-4 mt-[32px]  lg:mt-[0]   lg:mb-[16px] font-nm-medium font-medium text-black w-auto leading-[30px] md:leading-20 lg:leading-[77px]">
                 Marci Metzger
               </h1>
               <p className="text-lead md:text-[24px] font-nm-book text-[#383838] leading-normal md:leading-[29px] pb-4">

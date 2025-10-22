@@ -12,7 +12,7 @@ const Contact = () => {
             professional in Southern Nevada.
           </p>
 
-          <div className="flex flex-col md:flex-row justify-between gap-x-[20px] gap[60px]">
+          <div className="flex flex-col md:flex-row justify-between gap-x-[20px] gap-[60px]">
             <div className="">
               <div className="bg-[#F2EEED] rounded-[5px]">
                 <form className="px-8 py-12 w-auto lg:w-[535px] mb-[32px] md:mb-0">
