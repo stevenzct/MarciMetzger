@@ -16,8 +16,8 @@ const SearchListings = () => {
                   width={536}
                   height={693}
                 />
-                <figcaption className=" absolute bottom-12  w-auto  lg:w-[442px] px-2 py-2 md:px-4 md:py-4">
-                  <h1 className=" text-[38px] md:text-[60px] p-4 md:p-auto text-center md:text-start font-nm-medium font-medium leading-[41px] lg:leading-[65px] text-white  tracking-normal">
+                <figcaption className="absolute bottom-4 md:bottom-12  w-auto  lg:w-[442px] px-2 py-2 md:px-4 md:py-4">
+                  <h1 className=" text-[38px] md:text-[60px] p-4 md:p-auto text-center md:text-start font-nm-medium font-medium leading-[48px] lg:leading-[65px] text-white  tracking-normal">
                     Find your Dream Home
                   </h1>
                 </figcaption>
