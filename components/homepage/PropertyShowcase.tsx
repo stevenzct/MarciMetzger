@@ -14,7 +14,7 @@ const PropertyShowcase = () => {
 
           <div className="flex justify-between gap-x-[20px] gap[20px]">
             <div className="w-full">
-              <figure className="relative flex flex-col items-start ">
+              <figure className="relative flex flex-col items-center">
                 <Image
                   src="/images/propertyShowcase/1.jpg"
                   alt="propertyShowcase1"
@@ -22,16 +22,23 @@ const PropertyShowcase = () => {
                   width={387}
                   height={476}
                 />
-                <figcaption className=" absolute bottom-8  w-auto ">
-                  <h1 className="  text-[32px] text-start font-nm-medium font-medium ms-[32px] text-white  tracking-normal">
+                <figcaption className=" absolute bottom-8  w-auto inline-flex flex-row flex-nowrap gap-4 justify-between items-center content-center rounded-[5px] bg-[rgba(143,143,143,0.54)] px-2 py-2 md:px-4 md:py-[24px] text-white ">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 11.5C11.337 11.5 10.7011 11.2366 10.2322 10.7678C9.76339 10.2989 9.5 9.66304 9.5 9C9.5 8.33696 9.76339 7.70107 10.2322 7.23223C10.7011 6.76339 11.337 6.5 12 6.5C12.663 6.5 13.2989 6.76339 13.7678 7.23223C14.2366 7.70107 14.5 8.33696 14.5 9C14.5 9.3283 14.4353 9.65339 14.3097 9.95671C14.1841 10.26 13.9999 10.5356 13.7678 10.7678C13.5356 10.9999 13.26 11.1841 12.9567 11.3097C12.6534 11.4353 12.3283 11.5 12 11.5ZM12 2C10.1435 2 8.36301 2.7375 7.05025 4.05025C5.7375 5.36301 5 7.14348 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 7.14348 18.2625 5.36301 16.9497 4.05025C15.637 2.7375 13.8565 2 12 2Z" fill="white"/>
+                  </svg>
+                  <h1 className=" text-[16px]  lg:text-[24px] text-start font-nm-medium font-medium  text-white  tracking-normal">
                     Sierra Sol Estate
                   </h1>
+                  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="35.704" height="35.8642" rx="17.5" fill="#FBFBFB"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M22.7456 17.5347C22.84 17.6277 22.8935 17.7543 22.8946 17.8868C22.8956 18.0193 22.844 18.1468 22.7511 18.2413L18.7824 22.2724C18.7371 22.3219 18.6822 22.3617 18.6211 22.3895C18.5599 22.4173 18.4938 22.4325 18.4267 22.4342C18.3596 22.4359 18.2928 22.4241 18.2304 22.3995C18.1679 22.3748 18.1111 22.3378 18.0632 22.2907C18.0154 22.2436 17.9775 22.1873 17.9519 22.1253C17.9262 22.0632 17.9134 21.9966 17.914 21.9295C17.9147 21.8623 17.9289 21.796 17.9557 21.7345C17.9826 21.6729 18.0215 21.6174 18.0703 21.5713L21.1923 18.4001L11.7326 18.474C11.6 18.475 11.4724 18.4233 11.3779 18.3303C11.2834 18.2372 11.2297 18.1105 11.2287 17.9779C11.2277 17.8453 11.2794 17.7177 11.3724 17.6232C11.4654 17.5287 11.5922 17.475 11.7248 17.474L21.1845 17.4002L18.0134 14.2782C17.9639 14.2328 17.9241 14.1779 17.8963 14.1168C17.8685 14.0556 17.8533 13.9895 17.8515 13.9224C17.8498 13.8553 17.8617 13.7885 17.8863 13.7261C17.911 13.6636 17.948 13.6068 17.9951 13.5589C18.0422 13.5111 18.0984 13.4732 18.1605 13.4476C18.2226 13.4219 18.2892 13.4091 18.3563 13.4097C18.4234 13.4104 18.4898 13.4246 18.5513 13.4514C18.6129 13.4783 18.6684 13.5172 18.7145 13.566L22.7456 17.5347Z" fill="black"/>
+                  </svg>
                 </figcaption>
               </figure>
             </div>
 
-            <div className="hidden md:block w-full">
-              <figure className="relative flex flex-col items-start ">
+            <div className="hidden md:block w-full items-center">
+              <figure className="relative flex flex-col items-center ">
                 <Image
                   src="/images/propertyShowcase/2.jpg"
                   alt="propertyShowcase2"
@@ -39,16 +46,23 @@ const PropertyShowcase = () => {
                   width={387}
                   height={476}
                 />
-                <figcaption className=" absolute bottom-8  w-auto ">
-                  <h1 className="  text-[32px] text-start font-nm-medium font-medium ms-[32px]  text-white  tracking-normal">
+                <figcaption className=" absolute bottom-8  w-auto inline-flex flex-row flex-nowrap gap-4 justify-between items-center content-center rounded-[5px] bg-[rgba(143,143,143,0.54)] px-2 py-2 md:px-4 md:py-[24px] text-white ">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 11.5C11.337 11.5 10.7011 11.2366 10.2322 10.7678C9.76339 10.2989 9.5 9.66304 9.5 9C9.5 8.33696 9.76339 7.70107 10.2322 7.23223C10.7011 6.76339 11.337 6.5 12 6.5C12.663 6.5 13.2989 6.76339 13.7678 7.23223C14.2366 7.70107 14.5 8.33696 14.5 9C14.5 9.3283 14.4353 9.65339 14.3097 9.95671C14.1841 10.26 13.9999 10.5356 13.7678 10.7678C13.5356 10.9999 13.26 11.1841 12.9567 11.3097C12.6534 11.4353 12.3283 11.5 12 11.5ZM12 2C10.1435 2 8.36301 2.7375 7.05025 4.05025C5.7375 5.36301 5 7.14348 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 7.14348 18.2625 5.36301 16.9497 4.05025C15.637 2.7375 13.8565 2 12 2Z" fill="white"/>
+                  </svg>
+                  <h1 className=" text-[16px]  lg:text-[24px] text-start font-nm-medium font-medium  text-white  tracking-normal">
                     Canyonview Retreat
                   </h1>
+                  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="35.704" height="35.8642" rx="17.5" fill="#FBFBFB"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M22.7456 17.5347C22.84 17.6277 22.8935 17.7543 22.8946 17.8868C22.8956 18.0193 22.844 18.1468 22.7511 18.2413L18.7824 22.2724C18.7371 22.3219 18.6822 22.3617 18.6211 22.3895C18.5599 22.4173 18.4938 22.4325 18.4267 22.4342C18.3596 22.4359 18.2928 22.4241 18.2304 22.3995C18.1679 22.3748 18.1111 22.3378 18.0632 22.2907C18.0154 22.2436 17.9775 22.1873 17.9519 22.1253C17.9262 22.0632 17.9134 21.9966 17.914 21.9295C17.9147 21.8623 17.9289 21.796 17.9557 21.7345C17.9826 21.6729 18.0215 21.6174 18.0703 21.5713L21.1923 18.4001L11.7326 18.474C11.6 18.475 11.4724 18.4233 11.3779 18.3303C11.2834 18.2372 11.2297 18.1105 11.2287 17.9779C11.2277 17.8453 11.2794 17.7177 11.3724 17.6232C11.4654 17.5287 11.5922 17.475 11.7248 17.474L21.1845 17.4002L18.0134 14.2782C17.9639 14.2328 17.9241 14.1779 17.8963 14.1168C17.8685 14.0556 17.8533 13.9895 17.8515 13.9224C17.8498 13.8553 17.8617 13.7885 17.8863 13.7261C17.911 13.6636 17.948 13.6068 17.9951 13.5589C18.0422 13.5111 18.0984 13.4732 18.1605 13.4476C18.2226 13.4219 18.2892 13.4091 18.3563 13.4097C18.4234 13.4104 18.4898 13.4246 18.5513 13.4514C18.6129 13.4783 18.6684 13.5172 18.7145 13.566L22.7456 17.5347Z" fill="black"/>
+                  </svg>
                 </figcaption>
               </figure>
             </div>
 
             <div className="hidden md:block w-full">
-              <figure className="relative flex flex-col items-start ">
+              <figure className="relative flex flex-col items-center ">
                 <Image
                   src="/images/propertyShowcase/3.jpg"
                   alt="propertyShowcase3"
@@ -56,10 +70,17 @@ const PropertyShowcase = () => {
                   width={387}
                   height={476}
                 />
-                <figcaption className=" absolute bottom-8  w-auto ">
-                  <h1 className="  text-[32px] text-start font-nm-medium font-medium ms-[32px] text-white  tracking-normal">
+                <figcaption className=" absolute bottom-8  w-auto inline-flex flex-row flex-nowrap gap-4 justify-between items-center content-center rounded-[5px] bg-[rgba(143,143,143,0.54)] px-2 py-2 md:px-4 md:py-[24px] text-white ">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 11.5C11.337 11.5 10.7011 11.2366 10.2322 10.7678C9.76339 10.2989 9.5 9.66304 9.5 9C9.5 8.33696 9.76339 7.70107 10.2322 7.23223C10.7011 6.76339 11.337 6.5 12 6.5C12.663 6.5 13.2989 6.76339 13.7678 7.23223C14.2366 7.70107 14.5 8.33696 14.5 9C14.5 9.3283 14.4353 9.65339 14.3097 9.95671C14.1841 10.26 13.9999 10.5356 13.7678 10.7678C13.5356 10.9999 13.26 11.1841 12.9567 11.3097C12.6534 11.4353 12.3283 11.5 12 11.5ZM12 2C10.1435 2 8.36301 2.7375 7.05025 4.05025C5.7375 5.36301 5 7.14348 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 7.14348 18.2625 5.36301 16.9497 4.05025C15.637 2.7375 13.8565 2 12 2Z" fill="white"/>
+                  </svg>
+                  <h1 className=" text-[16px]  lg:text-[24px] text-start font-nm-medium font-medium  text-white  tracking-normal">
                     Sandridge Manor
                   </h1>
+                  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="35.704" height="35.8642" rx="17.5" fill="#FBFBFB"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M22.7456 17.5347C22.84 17.6277 22.8935 17.7543 22.8946 17.8868C22.8956 18.0193 22.844 18.1468 22.7511 18.2413L18.7824 22.2724C18.7371 22.3219 18.6822 22.3617 18.6211 22.3895C18.5599 22.4173 18.4938 22.4325 18.4267 22.4342C18.3596 22.4359 18.2928 22.4241 18.2304 22.3995C18.1679 22.3748 18.1111 22.3378 18.0632 22.2907C18.0154 22.2436 17.9775 22.1873 17.9519 22.1253C17.9262 22.0632 17.9134 21.9966 17.914 21.9295C17.9147 21.8623 17.9289 21.796 17.9557 21.7345C17.9826 21.6729 18.0215 21.6174 18.0703 21.5713L21.1923 18.4001L11.7326 18.474C11.6 18.475 11.4724 18.4233 11.3779 18.3303C11.2834 18.2372 11.2297 18.1105 11.2287 17.9779C11.2277 17.8453 11.2794 17.7177 11.3724 17.6232C11.4654 17.5287 11.5922 17.475 11.7248 17.474L21.1845 17.4002L18.0134 14.2782C17.9639 14.2328 17.9241 14.1779 17.8963 14.1168C17.8685 14.0556 17.8533 13.9895 17.8515 13.9224C17.8498 13.8553 17.8617 13.7885 17.8863 13.7261C17.911 13.6636 17.948 13.6068 17.9951 13.5589C18.0422 13.5111 18.0984 13.4732 18.1605 13.4476C18.2226 13.4219 18.2892 13.4091 18.3563 13.4097C18.4234 13.4104 18.4898 13.4246 18.5513 13.4514C18.6129 13.4783 18.6684 13.5172 18.7145 13.566L22.7456 17.5347Z" fill="black"/>
+                  </svg>
                 </figcaption>
               </figure>
             </div>
