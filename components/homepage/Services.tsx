@@ -64,7 +64,7 @@ const Services = () => {
             </div>
 
             <div className="w-full h-full">
-              <div className=" bg-white rounded-[5px] w-full">
+              <div className=" bg-white rounded-[5px] w-full h-full">
                 <a href="#">
                   <img
                     className="rounded-t-lg w-full "
