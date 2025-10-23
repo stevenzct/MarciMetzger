@@ -8,7 +8,7 @@ const SearchListings = () => {
         <div className="app-container lg:w-[75%] max-w-[1200px] w-auto mx-6 md:mx-12 lg:mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-[48px]">
             <div className="h-full w-full ">
-              <figure className="relative flex flex-col items-center ">
+              <figure className="relative flex flex-col items-center h-full">
                 <Image
                   src="/images/searchListings/image1.jpg"
                   className="rounded-[5px] object-cover w-full h-full"
