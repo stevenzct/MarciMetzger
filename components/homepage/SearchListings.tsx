@@ -30,7 +30,7 @@ const SearchListings = () => {
 
               <div className="bg-[#F2EEED] rounded-[5px]">
                 <form className="px-8 py-12">
-                  <div className="mb-4">
+                  <div className="md:mb-4">
                     <label
                       htmlFor="email"
                       className="block mb-2 text-[18px] font-medium text-black dark:text-white"
@@ -186,7 +186,7 @@ const SearchListings = () => {
                       </div>
                     </div>
 
-                    <button className="col-start-1 row-start-1 w-full appearance-none rounded-md bg-[#010101] mb-8 py-2 pr-8 pl-3 text-base text-white sm:text-sm/6 mt-[32px]">
+                    <button className="col-start-1 row-start-1 w-full appearance-none rounded-md bg-[#010101] md:mb-8 py-2 pr-8 pl-3 text-base text-white sm:text-sm/6 mt-[32px]">
                       Search Now
                     </button>
                   </div>
