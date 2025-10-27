@@ -3,7 +3,7 @@ import { ChevronDownIcon } from "@heroicons/react/16/solid";
 
 const SearchListings = () => {
   return (
-    <div className="pt-[80px] pb-[80px] md:pt-[120px] md:pb-[120px] md:pb-auto ">
+    <div id="searchListings" className="pt-[80px] pb-[80px] md:pt-[120px] md:pb-[120px] md:pb-auto ">
       <div className="container-wrapper w-full h-auto">
         <div className="app-container lg:w-[75%] max-w-[1200px] w-auto mx-6 md:mx-12 lg:mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-[48px]">

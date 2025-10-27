@@ -1,6 +1,7 @@
 import styles from "./Hero.module.css";
 import Button from "../Button";
 import HeroCards from "../HeroCards";
+import Link from "next/link"
 
 const hero = () => {
   return (
@@ -20,7 +21,9 @@ const hero = () => {
                 With Nearly 3 Decades of Experience, Marci Metzger and The Ridge
                 Realty Group Bring You Home with Confidence
               </p>
-              <Button type="button" title="Call Now" className="mb-[32px]" />
+              <Link href="#searchListings" passHref>
+                <Button type="button" title="Find Properties" className="mb-[32px]" />
+              </Link>
             </div>
 
             <div>
